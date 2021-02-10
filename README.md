@@ -1,6 +1,10 @@
 # tgTwitterBridge
 Telegram Channel - Twitter Tweet Bridge 
 
+# Preview
+![gif](https://github.com/raifpy/tgTwitterBridge/blob/main/resources/tg.gif)
+
+
 # Setup
 * git clone [raifpy/tgTwitterBridge](https://github.com/raifpy/tgTwitterBridge)
 * Install Tamper Dev for [Chrome](https://chrome.google.com/webstore/detail/tamper-dev/mdemppnhjflbejfbnlddahjbpdbeejnn) *(Like Burp Suite)*
@@ -22,3 +26,19 @@ Telegram Channel - Twitter Tweet Bridge
 * ![setupImage6](https://github.com/raifpy/tgTwitterBridge/blob/main/resources/setup_6.png)
 * Edit telegram.json with this informations
 * Add your bot to your channel and don't forget to make an administrator
+
+# On Background
+```terminal
+      
+tgTwitterBridge[.exe] -background
+      
+```
+
+# Compile 
+```bash
+git clone https://github.com/raifpy/tgTwitterBridge
+cd tgTwitterBridge
+go build -x -v .
+```
+
+You can [join my telegram channel](https://t.me/raifBlog)
