@@ -324,6 +324,7 @@ func newTwitter(defaultJSONPath, headerJSONpath, cookiePATH string) (*twitterCli
 		tgLog(err.Error(), logID)
 		return nil, err
 	}
+	cookie = bytes.Trim(cookie, "\n")
 	var tCookie = twitterCookie(string(cookie))
 
 	cookie = nil
